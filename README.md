@@ -16,7 +16,6 @@ The project consists of four main components:
 - **Operating System**: Linux (Ubuntu 18.04 or later recommended)
 - **Compiler**: GCC/G++ 7.0 or later (C++17 support required)
 - **Build Tool**: GNU Make 4.0 or later
-- **Memory**: Minimum 2GB RAM (4GB+ recommended for large circuits)
 
 ## Project Structure
 
@@ -76,7 +75,7 @@ The `Legalizer` class places diffused cells onto valid standard cell rows:
 - Partitions circuit into 2D bins for efficient processing
 - Implements multi-pass placement strategy with progressive relaxation
 - **Pass 1A**: Place within bin boundaries on valid rows
-- **Pass 1B**: Place with 簣100% bin width flexibility
+- **Pass 1B**: Place with 100% bin width flexibility
 - **Pass 2**: Place on nearest row with flexibility
 - **Pass 3**: Place on any row without restriction
 - Aligns cells to standard cell site grid
