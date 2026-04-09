@@ -5,7 +5,7 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 
 TARGET = legalizer
 
-SRCS = M11415069.cpp Parser.cpp Diffusion.cpp Legalizer.cpp Writer.cpp
+SRCS = main.cpp Parser.cpp Diffusion.cpp Legalizer.cpp Writer.cpp
 
 HDRS = Parser.h Diffusion.h Legalizer.h Writer.h
 
