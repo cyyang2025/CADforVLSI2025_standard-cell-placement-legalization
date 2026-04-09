@@ -29,7 +29,7 @@ Legalizer.h         # Legalization algorithm header
 Legalizer.cpp       # Legalization algorithm implementation
 Writer.h            # Output file writer header
 Writer.cpp          # Output file writer implementation
-M11415069.cpp       # Main program entry point
+main.cpp       # Main program entry point
 Makefile            # Build configuration
 README.md           # This file
 ```
